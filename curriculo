@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rbrsilva - Currículo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            position: relative;
+            min-height: 100vh;
+            transition: background-color 0.3s ease;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+            padding: 0.5em;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        section {
+            display: none;
+            padding: 2em;
+            background-color: #bdc3c7;
+            margin: 1em;
+            border-radius: 10px;
+            color: #2c3e50;
+        }
+
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+
+        .contato-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .contato-btn:hover {
+            background-color: #3498db;
+            transform: scale(1.1);
+        }
+
+        .software-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .software-logo {
+            width: 50px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>rbrsilva</h1>
+        <nav>
+            <a onclick="showSection('home')">Home</a>
+            <a onclick="showSection('objetivos')">🚀 Objetivos</a>
+            <a onclick="showSection('formacao')">🎓 Formação</a>
+            <a onclick="showSection('cursos')">📚 Certificações</a>
+            <a onclick="showSection('softwares')">💻 Especializações</a>
+            <a onclick="showSection('experiencias')">👨‍💻 Experiências</a>
+            <a onclick="showSection('contato')">📞 Contato</a>
+        </nav>
+    </header>
+
+    <section id="objetivos">
+        <h2>🚀 Objetivos</h2>
+        <p>
+    <div style="display: flex; align-items: center; padding: 2em;">
+        <div style="flex: 1; text-align: justify;">
+            <p>Ao ingressar em uma empresa, minha meta não se limita apenas a integrar-me como parte do quadro de colaboradores, mas visa alcançar um desenvolvimento pessoal de excelência. Em cada passo que dou e em cada tarefa que assumo, meu foco é sempre ser o melhor, superando as expectativas e buscando constantemente ir além, procurando maneiras de aprimorar processos e atingir metas mais desafiadoras.</p>
+            <p>Acredito que essa mentalidade de excelência não apenas contribuirá para o meu crescimento profissional, mas também para o sucesso coletivo da equipe e da empresa como um todo. Pretendo aproveitar ao máximo os recursos disponíveis, como treinamentos e mentorias, assumindo responsabilidades adicionais para evoluir continuamente.</p>
+            <p>Em resumo, almejo não apenas alcançar meus objetivos pessoais, mas também agregar valor à equipe e à organização, alinhando meus valores ao propósito da empresa. Estou motivado a ser um colaborador que vai além das expectativas, impulsionando o sucesso coletivo.</p>
+        </div>
+        <div style="flex: 1; text-align: center;">
+            <div style="width: 300px; height: 300px; border: 5px solid #fff; border-radius: 50%; overflow: hidden; margin: 0 auto;">
+                <img src="https://scontent.fcgh16-1.fna.fbcdn.net/v/t1.6435-9/89511991_915764862191997_7111010526867488768_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=be3454&_nc_ohc=as9-np-BNUwAX-U-sHC&_nc_ht=scontent.fcgh16-1.fna&oh=00_AfD_A1ua-F7x2DRI188iO1EyieFxuEvEH_swflgaWg0vQQ&oe=65BB7BE1" alt="Minha Foto" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="formacao">
+        <h2>🎓 Formação Acadêmica</h2>
+        <p>
+            <strong>Gestão da Tecnologia da Informação</strong><br>
+            Ensino Superior<br>
+            Universidade Morumbi Anhembi<br>
+            Cursando Atualmente
+        </p>
+
+        <p>
+            <strong>Ensino Médio</strong><br>
+            E.E. Dona Prisciliana Duarte de Almeida<br>
+            Concluído em Dez/2016
+        </p>
+    </section>
+
+    <section id="cursos">
+        <h2>📚 Cursos e Certificações</h2>
+        <p>
+            <strong>Factum Consórcios</strong><br>
+            Especialização em Consórcios - SPTN
+        </p>
+
+        <p>
+            <strong>Escola de Educação Executiva</strong><br>
+            5 S em 7 passos;<br>
+            Abordagem de alto impacto;<br>
+            Apresentações que impactam;<br>
+            Comportamento de vendas;<br>
+            Corpo são, mente produtiva e saúde em dia;<br>
+            Gestão além dos números;<br>
+            Gestão do desempenho;<br>
+            Gestão estratégica de gente;<br>
+            Happiness skills;<br>
+            Inteligência que vende;<br>
+            Inteligência social;<br>
+            O líder e as vendas;<br>
+            O que você quer ser quando amadurecer;<br>
+            O show da negociação;<br>
+            Oportunidades invisíveis;<br>
+            Tudo é venda!;<br>
+            Você no controle das vendas;<br>
+            Você protagonista da sua carreira;
+        </p>
+
+        <p>
+            <strong>Aib Digital - Alan Caçula</strong><br>
+            Como Agendar Reunião Online e Offline;<br>
+            Como Anunciar em Grupos do Facebook;<br>
+            Como Lidar com Cliente Que Não foi contemplado;<br>
+            Expert em Fechamento;<br>
+            Expert em Prospecção;<br>
+            Funil de Vendas;<br>
+            Gestão de Equipes;<br>
+            Instagram para Profissionais de Consórcios;<br>
+            Método 250k;<br>
+            Método Vendendo Consórcio com Youtube;<br>
+            O Segredo das Objeções;<br>
+            Produtividade Extrema Para Vendedores;<br>
+            Vendendo Consórcio com Aúncios na OLX;<br>
+            Vendendo mais com o Whatsapp;
+        </p>
+
+        <p>
+            <strong>Instituto Sebrae</strong><br>
+            Compras governamentais: micro e pequenas empresas;<br>
+            Contrato de trabalho;<br>
+            Gestão de equipes como diferencial competitivo;<br>
+            Gestão de pessoas em Bares e Restaurantes;<br>
+            Gestão de pessoas;<br>
+            Gestão financeira;<br>
+            Liderança: como desenvolver times de alta performance;<br>
+            Modelagem financeira para Startups;<br>
+            Pregão eletrônico para o comprador;<br>
+            Propriedade intelectual para Startups;
+        </p>
+
+        <p>
+            <strong>Google Ateliê Digital</strong><br>
+            Princípios básicos de marketing digital;
+        </p>
+    </section>
+
+    <section id="softwares">
+        <h2>💻 Especializações em Softwares</h2>
+        <div class="software-item">
+            <img class="software-logo" src="https://logodownload.org/wp-content/uploads/2020/04/microsoft-powerpoint-logo-1536x1429.png" alt="Microsoft PowerPoint">
+            Microsoft PowerPoint - Intermediário
+        </div>
+        <div class="software-item">
+            <img class="software-logo" src="https://logodownload.org/wp-content/uploads/2020/04/excel-logo-1536x1429.png" alt="Microsoft Excel">
+            Microsoft Excel - Intermediário
+        </div>
+        <div class="software-item">
+            <img class="software-logo" src="https://logodownload.org/wp-content/uploads/2018/10/word-logo-8-1536x1536.png" alt="Microsoft Word">
+            Microsoft Word - Intermediário
+        </div>
+        <div class="software-item">
+            <img class="software-logo" src="https://cdn.pixabay.com/photo/2015/11/27/10/55/photoshop-1065296_1280.jpg" alt="Adobe Photoshop">
+            Adobe Photoshop - Básico
+        </div>
+        <div class="software-item">
+            <img class="software-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Affinity-photo-icon.png/800px-Affinity-photo-icon.png" alt="Affinity Photo">
+            Affinity Photo - Intermediário
+        </div>
+        <div class="software-item">
+            <img class="software-logo" src="https://seeklogo.com/images/A/affinity-photo-v2-logo-2BEB24FE85-seeklogo.com.png" alt="Affinity Photo">
+            Affinity Photo 2 - Intermediário
+        </div>
+        <div class="software-item">
+            <img class="software-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Affinity-Designer.png" alt="Affinity Designer">
+            Affinity Designer - Intermediário
+        </div>
+        <div class="software-item">
+            <img class="software-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Affinity_Designer_2-logo.svg/280px-Affinity_Designer_2-logo.svg.png" alt="Affinity Designer 2">
+            Affinity Designer 2 - Intermediário
+        </div>
+        <div class="software-item">
+            <img class="software-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Affinity-publisher-icon-1080.png/768px-Affinity-publisher-icon-1080.png" alt="Affinity Publisher">
+            Affinity Publisher - Básico
+        </div>
+    </section>
+
+    <section id="experiencias">
+        <h2>👨‍💻 Experiências Profissionais</h2>
+        <p>
+            <strong>NDS Promoções e Vendas LTDA</strong><br>
+            <em>Cargo:</em> Auxiliar Administrativo<br>
+            <em>Período:</em> 02/2023 a 12/2023<br>
+            <em>Principais atividades:</em> Cadastrar e acompanhar contratos, elaboração e pagamentos de borderôs, abertura de tickets, controle e pagamento de contas PJ, contratação e demissão, pós venda online e presencial.
+        </p>
+
+        <p>
+            <strong>Jdl Promoções e Vendas LTDA</strong><br>
+            <em>Cargo:</em> Gerente Administrativo<br>
+            <em>Período:</em> 09/2022 a 12/2023<br>
+            <em>Principais atividades:</em> Supervisionar administrativo no cadastro e acompanhar contratos, elaboração e pagamentos de borderôs, abertura de tickets, controle e pagamento de contas PJ e PF, contratação e demissão, pós venda online e presencial.
+        </p>
+
+        <p>
+            <strong>Jdl Promoções e Vendas LTDA</strong><br>
+            <em>Cargo:</em> Auxiliar Administrativo<br>
+            <em>Período:</em> 05/2020 a 09/2022<br>
+            <em>Principais atividades:</em> Cadastrar e acompanhar contratos, elaboração e pagamentos de borderôs, abertura de tickets, controle e pagamento de contas PJ e PF, contratação e demissão e auxilio no pós venda online.
+        </p>
+
+        <p>
+            <strong>Jdl Promoções e Vendas LTDA</strong><br>
+            <em>Cargo:</em> Vendedor<br>
+            <em>Período:</em> 01/2020 a 05/2020<br>
+            <em>Principais atividades:</em> Prospectar, Agendar e Vender para clientes.
+        </p>
+
+        <p>
+            <strong>Atento Brasil S/A</strong><br>
+            <em>Cargo:</em> Operador de Telemarketing Ativo e Receptivo<br>
+            <em>Período:</em> 04/2019 a 10/2019<br>
+            <em>Principais atividades:</em> Atendimento suporte técnico em HHP.
+        </p>
+
+        <p>
+            <strong>Companhia de Saneamento Básico de São Paulo</strong><br>
+            <em>Cargo:</em> Operador de Telemarketing Ativo e Receptivo<br>
+            <em>Período:</em> 2016-2017<br>
+            <em>Principais atividades:</em> Atendimento suporte Operacional e Comercial.
+        </p>
+    </section>
+
+    <section id="contato">
+        <h2>📞 Contato</h2>
+        <a class="contato-btn" href="https://meuairgo.com.br/rbrsilva" target="_blank">Clique aqui!</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 rbrsilva. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            var sections = document.querySelectorAll('section');
+            var footer = document.querySelector('footer');
+
+            sections.forEach(function (section) {
+                if (section.id === sectionId) {
+                    section.style.display = 'block';
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+
+            // Exibe ou oculta o rodapé com base na seção de contato
+            footer.style.display = (sectionId === 'contato') ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
+
+
